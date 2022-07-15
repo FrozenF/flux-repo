@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: node_test.local
+    - host: node-test.local
       http:
          paths:
            - pathType: Prefix
