@@ -3,11 +3,11 @@ kind: Ingress
 metadata:
   name: node-test-ingress
   namespace: node-test
-  annotations:
-    kubernetes.io/ingress.class: nginx
 spec:
+  ingressClassName: nginx
   rules:
-    -  http:
+    - host: node_test.local
+      http:
          paths:
            - pathType: Prefix
              path: "/"
