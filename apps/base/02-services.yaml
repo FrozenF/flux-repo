@@ -2,10 +2,10 @@ apiVersion: v1
 kind: Service
 metadata:
   name: web
-  namespace: node_test
+  namespace: node-test
   labels:
     name: web
-    app: node_test
+    app: node-test
 spec:
   selector:
     name: web
