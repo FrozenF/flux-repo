@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: web
-          image: frozenf/node_test:1.0
+          image: frozenf/node_test:2.0
           ports:
             - containerPort: 8081
